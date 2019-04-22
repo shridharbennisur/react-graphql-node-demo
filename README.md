@@ -4,13 +4,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run start:web`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
+
+### `npm run start:server`
+
+Runs the node server for fetching graphql query
+Open [http://localhost:5000/graphql](http://localhost:3000/graphql) to view it in the browser for graphql query.
 
 ### `npm test`
 
@@ -42,6 +47,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+To learn Graphql, check out the [Graphql docmentation](https://graphql.org/).
 
 ### Code Splitting
 
